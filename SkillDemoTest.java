@@ -6,6 +6,6 @@ public class SkillDemoTest {
     
     @Test
     public void multiply() {
-        assertEquals(12, 4 * 3); // Raise fail
+        assertEquals(12, SkillDemo.multiply(4, 3)); // Raise fail
     }
 }
